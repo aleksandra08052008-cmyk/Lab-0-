@@ -3,7 +3,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class MatrixTest {
 
-    // тест множення матриці C = a * B
+    // C = a * B
     @Test
     public void testMatrixMultiplication() {
 
@@ -26,7 +26,7 @@ public class MatrixTest {
         assertEquals((char) ('D' * 2), C[1][1]);
     }
 
-    // тест логіки суми max/min по рядках
+    // сума max/min по рядках
     @Test
     public void testSumLogic() {
 
@@ -61,7 +61,7 @@ public class MatrixTest {
         assertEquals(133, sum);
     }
 
-    // тест що немає помилки при пустих даних (безпечність)
+    // відсутність помилки при пустих даних
     @Test
     public void testNoCrashSmallMatrix() {
 
